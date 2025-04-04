@@ -2,12 +2,14 @@ module github.com/outofforest/tools
 
 go 1.22.0
 
+toolchain go1.24.1
+
 require (
 	github.com/outofforest/build/v2 v2.4.0
 	github.com/outofforest/libexec v0.3.9
 	github.com/outofforest/logger v0.5.5
 	github.com/pkg/errors v0.9.1
-	github.com/samber/lo v1.47.0
+	github.com/samber/lo v1.49.1
 	go.uber.org/zap v1.27.0
 )
 
