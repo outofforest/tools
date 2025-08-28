@@ -16,7 +16,7 @@ require (
 	github.com/outofforest/parallel v0.2.3 // indirect
 	github.com/outofforest/run v0.8.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/ulikunitz/xz v0.5.12 // indirect
+	github.com/ulikunitz/xz v0.5.14 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/text v0.21.0 // indirect
 )
