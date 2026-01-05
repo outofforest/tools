@@ -37,6 +37,9 @@ linters:
     - varnamelen
     - wrapcheck
     - wsl
+    - noctx
+    - wsl_v5
+    - noinlineerr
   settings:
     funlen:
       lines: 100

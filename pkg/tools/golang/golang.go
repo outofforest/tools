@@ -379,5 +379,6 @@ func env(ctx context.Context) []string {
 		"GOPATH=" + filepath.Join(tools.DevDir(ctx), "go"),
 		"GOCACHE=" + filepath.Join(tools.DevDir(ctx), "go", "cache", "gobuild"),
 		"GOLANGCI_LINT_CACHE=" + filepath.Join(tools.DevDir(ctx), "go", "cache", "golangci"),
+		"GOTOOLCHAIN=local",
 	}
 }

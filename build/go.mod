@@ -1,6 +1,6 @@
 module build
 
-go 1.22.0
+go 1.24
 
 replace github.com/outofforest/tools => ../
 
