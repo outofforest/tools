@@ -71,6 +71,17 @@ linters:
         - name: unexported-return
         - name: var-declaration
         - name: var-naming
+          arguments:
+          - [ "" ] # AllowList
+          - [ "" ] # DenyList
+          - - skip-initialism-name-checks: true
+              upper-case-const: true
+              skip-package-name-checks: true
+              skip-package-name-collision-with-go-std: true
+              extra-bad-package-names:
+              - helpers
+              - models
+              - types
   exclusions:
     generated: lax
     rules:
