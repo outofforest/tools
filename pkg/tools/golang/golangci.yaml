@@ -40,6 +40,8 @@ linters:
     - noctx
     - wsl_v5
     - noinlineerr
+    - gomodguard
+    - goconst
   settings:
     funlen:
       lines: 100
