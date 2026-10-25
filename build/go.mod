@@ -1,12 +1,12 @@
 module build
 
-go 1.25
+go 1.26.0
 
 replace github.com/outofforest/tools => ../
 
 require (
-	github.com/outofforest/build/v2 v2.7.0
-	github.com/outofforest/tools v1.4.3
+	github.com/outofforest/build/v2 v2.8.0
+	github.com/outofforest/tools v1.6.0
 )
 
 require (
@@ -19,9 +19,9 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/samber/lo v1.53.0 // indirect
 	github.com/spf13/pflag v1.0.10 // indirect
-	github.com/ulikunitz/xz v0.5.15 // indirect
+	github.com/ulikunitz/xz v0.5.17 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	go.uber.org/zap v1.27.1 // indirect
-	golang.org/x/mod v0.32.0 // indirect
-	golang.org/x/text v0.33.0 // indirect
+	go.uber.org/zap v1.28.0 // indirect
+	golang.org/x/mod v0.42.0 // indirect
+	golang.org/x/text v0.43.0 // indirect
 )
